@@ -20,6 +20,11 @@ Plugin 'Gundo'
 Plugin 'wting/rust.vim'
 Plugin 'rking/ag.vim'
 Plugin 'nicoraffo/conque'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'groenewege/vim-less'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'myusuf3/numbers.vim'
 " Keep Plugin commands between vundle#begin/end.
 
 " All of your Plugins must be added before the following line
@@ -44,6 +49,13 @@ filetype plugin indent on    " required
 :let g:session_autoload = 'no'
 :let g:ConqueTerm_SessionSupport = 0
 colorscheme molokai
+
+set mouse=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
+        
 set mouse=a
 set background=dark
 set tabstop=4
@@ -51,4 +63,4 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set hls
-
+set fillchars+=vert:│
