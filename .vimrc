@@ -70,3 +70,4 @@ set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove left-hand scroll bar
 
 let mapleader = ","
+set rtp+=/usr/local/opt/fzf
