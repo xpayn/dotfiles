@@ -1,5 +1,5 @@
 [user]
-	email = xavier.payn@opentrust.com
+	email = xavier.payn@gmail.com
 	name = Xavier Payn
 [color]
     ui = auto
@@ -19,7 +19,6 @@
     editor = vim
     whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = /Users/xpayn/.gitignore
-    gitProxy = "git-bastion-proxy" for "bower.dev.opentrust.com:6789"
 	pager = diff-so-fancy | less --tabs=1,5 -R
 [diff]
 	mnemonicPrefix = true
