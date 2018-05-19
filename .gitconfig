@@ -20,7 +20,7 @@
     whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = /Users/xpayn/.gitignore
     gitProxy = "git-bastion-proxy" for "bower.dev.opentrust.com:6789"
-	pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
+	pager = diff-so-fancy | less --tabs=1,5 -R
 [diff]
 	mnemonicPrefix = true
 	renames = true

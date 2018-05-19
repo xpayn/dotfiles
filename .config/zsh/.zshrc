@@ -19,5 +19,6 @@ export HOMEBREW_GITHUB_API_TOKEN=e1e651b98d99adbd70362c73bf4baadfc3c81ed7
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export PATH="$HOME/.cargo/bin:$PATH"
 export FZF_DEFAULT_COMMAND='rg -l ".*"'
+
+. $HOME/.cargo/env
